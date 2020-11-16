@@ -1,23 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .Sidebar {
     background: #fafafa;
-    position: absolute;
+    display: flex;
     width: 336px;
-    height: 1080px;
-    left: 0px;
-    top: 0px;
+    height: 100vh;
+    flex-direction: column;
 }
+
+/* Fausto Silva */
 
 h1 {
+    color: #727272;
+
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    line-height: 27,28px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 27px;
 }
 
-.avatar-fausto {
-    width: 90px;
-    height: 90px;
-    left: 123px;
-    top: 85px;
+
+h2 {
+    color: #727272;
+
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.avatar--fausto {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 115px;
+}
+
+.avatar--fausto img {
+    max-width: 90px;
     border-radius: 50%;
+    align-items: center;
+}
+
+/* Dashboard-button */
+
+.button-dashboard {
+    color: #6A6A6A;
+    display: flex;
+
+    font-family: 'Nunito', sans-serif;
+    margin-top: 150px;
+    margin-right: 135px;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.button-dashboard a:link {
+    text-decoration: none;
+}
+
+.button-dashboard a:visited {
+    color:#6A6A6A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-dashboard a:hover{
+    text-decoration: none;
+}
+
+/* Dashboard-course */
+
+.button-courses {
+    color: #6A6A6A;
+    display: flex;
+
+    font-family: 'Nunito', sans-serif;
+    margin-top: 35px;
+    margin-right: 135px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.button-courses a:link {
+    text-decoration: none;
+}
+
+.button-courses a:visited {
+    color:#6A6A6A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-courses a:hover{
+    text-decoration: none;
+    transition: all 1s;
+    cursor: pointer;
 }
