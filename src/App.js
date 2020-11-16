@@ -1,11 +1,9 @@
 import React from 'react'
-import Sidebar from './components/Sidebar'
+import Dashboard from './containers/Dashboard'
 
 function App () {
   return (
-    <div>
-      <Sidebar name="Fausto Silva" course="Ciência da Computação"/>
-    </div>
+        <Dashboard/>
   )
 }
 

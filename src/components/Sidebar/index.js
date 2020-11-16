@@ -3,6 +3,7 @@ import './styles.css'
 
 function Sidebar(props){
     return(
+        <div className="tela1">
         <div className="Sidebar">
             <section class="grid center">
             <div class="avatar--fausto">
@@ -13,6 +14,7 @@ function Sidebar(props){
             <ul class="button-dashboard"><a href="#">Dashboard</a></ul>
             <ul class="button-courses"><a href="#">Meus cursos</a></ul>
             </section>
+        </div>
         </div>
     )
 }
