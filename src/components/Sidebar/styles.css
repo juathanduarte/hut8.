@@ -10,7 +10,7 @@
 
 /* Fausto Silva */
 
-h1 {
+.propsName {
     color: #727272;
 
     text-align: center;
@@ -22,7 +22,7 @@ h1 {
 }
 
 
-h2 {
+.propsCourse {
     color: #727272;
 
     text-align: center;

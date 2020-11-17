@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../../components/Sidebar'
 import Resume from '../../components/Resume'
+import './styles.css' 
 
 function Dashboard () {
   return (
