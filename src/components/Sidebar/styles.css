@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    line-height: 27px;
+    margin-left: -10px;
 }
 
 
@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    line-height: 19px;
+    margin-left: -10px;
 }
 
 .avatar--fausto {
