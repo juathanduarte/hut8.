@@ -1,0 +1,12 @@
+.stylesBlock {
+    display: flex;
+}
+
+.tittleActivity {
+    position: absolute;
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    margin-left: 115px;
+    margin-top: 90px;
+}
