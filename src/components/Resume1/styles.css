@@ -1,0 +1,20 @@
+.blocks {
+    
+}
+
+.tittleCourse {
+    display: flex;
+    justify-content: flex-start;
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    margin-top: 85px;
+    margin-left: 112px;
+}
+
+.subtittleClass {
+    color: #737373;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-left: 112px;
+}
