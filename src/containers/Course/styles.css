@@ -2,3 +2,7 @@
     display: grid;
     grid-template-columns: 336px 1fr;
 }
+
+.proxActivity {
+    margin-top: 285px;
+}

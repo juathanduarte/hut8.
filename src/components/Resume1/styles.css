@@ -1,6 +1,14 @@
-.blocks {
-    
+/* Layout - Página */
+
+.flex-box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 87px;
+    width: 1010px;
 }
+
+/* Título & Sub-Título - Curso */
 
 .tittleCourse {
     display: flex;
@@ -8,8 +16,8 @@
     color: #555555;
     font-family: 'Nunito', sans-serif;
     font-size: 26px;
-    margin-top: 85px;
     margin-left: 112px;
+    margin-bottom: -10px;
 }
 
 .subtittleClass {
@@ -17,4 +25,50 @@
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     margin-left: 112px;
+}
+
+/* Nome & Descrição - Professor */
+
+.teacherInfo2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.teacherInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.teacherInfo img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.teacherName{
+    color: #727272;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+
+.teacherSubtittle{
+    color: #727272;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.tittleActivity3 {
+    position: absolute;
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    margin-left: 115px;
+    margin-top: 90px;
 }

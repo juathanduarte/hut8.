@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../../components/Sidebar'
 import Resume1 from '../../components/Resume1'
+import Activity3 from '../../components/Activity3'
 import './styles.css' 
 
 function index () {
@@ -11,7 +12,11 @@ function index () {
       </div>
       <div>
         <Resume1 tittle="Algoritmos e Programação"/>
-      </div>
+      </div> 
+
+      <div className="proxActivity">
+            <Activity3/>
+        </div>
     </div>
   )
 }
