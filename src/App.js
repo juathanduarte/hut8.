@@ -5,9 +5,9 @@ import Course from './containers/Course'
 
 function App () {
   return (
-        //<Dashboard/>
-        // <Courses/>
-        <Course/>
+        <Dashboard/>
+        //<Courses/>
+        //<Course/>
   )
 }
 

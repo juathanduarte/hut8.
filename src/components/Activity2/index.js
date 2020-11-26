@@ -7,8 +7,8 @@ function index() {
         <div>
             <h1 className="tittleActivity">Meus cursos</h1>
         <div className="stylesBlock">
-            <Block1 graduation="Graduação" course="Algoritmos e Programação" class="M52" image="https://i.imgur.com/dSG2ZLX.jpg"/>
-            <Block1 graduation="Graduação" course="Projeto de Banco de Dados" class="M52" image="https://i.imgur.com/GpfCzWB.jpg"/> 
+            <Block1 graduation="Graduação" course1="Algoritmos e Programação" class="M52" image="https://i.imgur.com/dSG2ZLX.jpg"/>
+            <Block1 graduation="Graduação" course1="Projeto de Banco de Dados" class="M52" image="https://i.imgur.com/GpfCzWB.jpg"/> 
         </div>
         </div>
     )

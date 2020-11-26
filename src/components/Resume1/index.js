@@ -25,12 +25,14 @@ function index() {
             <Block1 number="04" info="Créditos" icon="fas fa-graduation-cap" /> 
             <Block1 number="28" info="Alunos matriculados" icon="fas fa-user-graduate" />  
         </div>
+
         <div>
             <h1 className="tittleActivity3">Próximas atividades</h1>
         <div className="stylesBlock3">
             <Block3 course="Algoritmo e Programação" upload="Enviar arquivo Peter Smokes" date="10/10/20" image="https://i.imgur.com/aadwyfC.jpg"/>
         </div>
         </div>
+        
         </section>
     )
 }

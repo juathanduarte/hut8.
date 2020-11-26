@@ -12,11 +12,7 @@ function index () {
       </div>
       <div>
         <Resume1 tittle="Algoritmos e Programação"/>
-      </div> 
-
-      <div className="proxActivity">
-            <Activity3/>
-        </div>
+      </div>
     </div>
   )
 }
