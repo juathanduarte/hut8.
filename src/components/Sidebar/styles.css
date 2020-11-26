@@ -12,25 +12,21 @@
 
 .propsName {
     color: #727272;
-
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    margin-left: -10px;
 }
 
 
 .propsCourse {
     color: #727272;
-
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: bold;
     font-size: 17px;
-    margin-left: -10px;
+    margin-top: -23px;
 }
 
 .avatar--fausto {
@@ -47,6 +43,12 @@
     align-items: center;
 }
 
+.infoStudent {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 73px;
+}
+
 /* Dashboard-button */
 
 .button-dashboard {
@@ -54,28 +56,16 @@
     display: flex;
     font-family: 'Nunito', sans-serif;
     margin-top: 150px;
-    margin-right: 135px;
+    margin-left: 45px;
     font-size: 22px;
     text-decoration: none;
-    transition: all 0.5s;
     cursor: pointer;
 }
 
-.button-dashboard a:link {
-    text-decoration: none;
-}
-
-.button-dashboard a:visited {
+.button-dashboard.active{
     color:#6A6A6A;
     font-weight: bold;
     text-decoration: none;
-}
-
-.button-dashboard a:hover{
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.1));
-    filter: drop-shadow(0px 0px 5px rgba(0,0,0,.5));
 }
 
 /* Dashboard-course */
@@ -85,26 +75,14 @@
     display: flex;
     font-family: 'Nunito', sans-serif;
     margin-top: 35px;
-    margin-right: 135px;
+    margin-left: 45px;
     font-size: 22px;
     text-decoration: none;
-    transition: all 0.5s;
     cursor: pointer;
 }
 
-.button-courses a:link {
-    text-decoration: none;
-}
-
-.button-courses a:visited {
+.button-courses.active{
     color:#6A6A6A;
     font-weight: bold;
     text-decoration: none;
-}
-
-.button-courses a:hover{
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.1));
-    filter: drop-shadow(0px 0px 5px rgba(0,0,0,.5));
 }

@@ -1,5 +1,6 @@
 .blocks {
     display: flex;
+    width: 100vw;
 }
 
 .tittleResume {
