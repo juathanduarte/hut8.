@@ -1,17 +1,45 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './styles.css'
 import Block1 from './Block1/index'
+import { getInfo } from '../../services/requests'
+import { NavLink } from 'react-router-dom'
 
-function index() {
-    return (
-        <div>
-            <h1 className="tittleActivity">Meus cursos</h1>
-        <div className="stylesBlock">
-            <Block1 graduation="Graduação" course1="Algoritmos e Programação" class="M52" image="https://i.imgur.com/dSG2ZLX.jpg"/>
-            <Block1 graduation="Graduação" course1="Projeto de Banco de Dados" class="M52" image="https://i.imgur.com/GpfCzWB.jpg"/> 
-        </div>
-        </div>
-    )
+function Index() {
+  const [coursesData, setcoursesData] = useState(null)
+
+  useEffect(() => {
+    getInfo().then(res => {
+      setcoursesData(res.data[0].courses)
+    })
+  }, [])
+
+  return (
+    <div>
+      <h1 className='tittleActivity'>Meus cursos</h1>
+      <div className='stylesBlock'>
+        {coursesData ? (
+          <>
+            <NavLink exact className='button-algoritmo' to='/cursos/curso/1'>
+              <Block1
+                graduation={coursesData[0].type}
+                course1={coursesData[0].course}
+                class={coursesData[0].class}
+                image={coursesData[0].image}
+              />
+            </NavLink>
+            <Block1
+              graduation={coursesData[1].type}
+              course1={coursesData[1].course}
+              class={coursesData[1].class}
+              image={coursesData[1].image}
+            />
+          </>
+        ) : (
+          <p>Carregando</p>
+        )}
+      </div>
+    </div>
+  )
 }
 
-export default index
+export default Index

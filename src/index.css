@@ -1,9 +1,9 @@
 body {
-    background: white;
+  background: white;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 336px 1fr;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 336px 1fr;
+  gap: 15px;
 }

@@ -1,17 +1,42 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './styles.css'
 import Block from './Block/index'
+import { getInfo } from '../../services/requests'
 
-function index() {
-    return (
-        <div>
-            <h1 className="tittleActivity">Próximas atividades</h1>
-        <div className="stylesBlock">
-            <Block course="Algoritmo e Programação" upload="Enviar arquivo Peter Smokes" date="10/10/20" image="https://i.imgur.com/aadwyfC.jpg"/>
-            <Block course="Projeto de Banco de Dados" upload="Enviar o esquema MySQL" date="10/10/20" image="https://i.imgur.com/RgQrlAS.jpg"/> 
-        </div>
-        </div>
-    )
+function Index() {
+  const [activitiesData, setactivitiesData] = useState(null)
+
+  useEffect(() => {
+    getInfo().then(res => {
+      setactivitiesData(res.data[0].nextActivities)
+    })
+  }, [])
+
+  return (
+    <div>
+      <h1 className='tittleActivity'>Próximas atividades</h1>
+      <div className='stylesBlock'>
+        {activitiesData ? (
+          <>
+            <Block
+              course={activitiesData[0].course}
+              upload={activitiesData[0].title}
+              date={activitiesData[0].deadline}
+              image={activitiesData[0].image}
+            />
+            <Block
+              course={activitiesData[1].course}
+              upload={activitiesData[1].title}
+              date={activitiesData[1].deadline}
+              image={activitiesData[1].image}
+            />
+          </>
+        ) : (
+          <p>Carregando</p>
+        )}
+      </div>
+    </div>
+  )
 }
 
-export default index
+export default Index
