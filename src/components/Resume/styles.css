@@ -1,13 +1,13 @@
 .blocks {
-    display: flex;
-    width: 100vw;
+  display: flex;
+  width: 1100px;
 }
 
 .tittleResume {
-    position: absolute;
-    color: #555555;
-    font-family: 'Nunito', sans-serif;
-    font-size: 26px;
-    margin-left: 115px;
-    margin-top: 90px;
+  position: absolute;
+  color: #555555;
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  margin-left: 115px;
+  margin-top: 90px;
 }

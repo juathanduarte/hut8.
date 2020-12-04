@@ -1,48 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-.block2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 236px;
-    height: 222px;
-    top: 337px;
-    left: 449px;
-    background: #fcfcfc;
-    border-radius: 20px;
-    margin-left: 112px;
-    margin-top: 180px;
+.blocktela2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 250px;
+  height: 222px;
+  top: 337px;
+  left: 449px;
+  background: #fcfcfc;
+  border-radius: 20px;
 }
 
 .graduation {
-    color: #737373;
-    font-family: 'Nunito', sans-serif;
-    font-size: 10px;
-    margin-left: 19px;
-    margin-bottom: 18px;
+  color: #737373;
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  margin-left: 19px;
+  margin-bottom: 18px;
 }
 
 .course1 {
-    position: absolute;
-    color: #484848;
-    font-family: 'Nunito', sans-serif;
-    font-size: 12px;
-    margin-left: 19px;
-    margin-bottom: 28px;
+  position: absolute;
+  color: #484848;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  margin-left: 19px;
+  margin-bottom: 28px;
 }
 
 .class {
-    position: relative;
-    color: #8E8E8E;
-    font-family: 'Nunito', sans-serif;
-    font-size: 8px;
-    margin-left: 19px;
-    margin-top: 15px;
+  position: relative;
+  color: #8e8e8e;
+  font-family: 'Nunito', sans-serif;
+  font-size: 8px;
+  margin-left: 19px;
+  margin-top: 15px;
 }
 
 .image {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px 20px 0px 0px;
 }

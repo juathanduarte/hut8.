@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Dashboard from './containers/Dashboard'
 import Courses from './containers/Courses'
-import Course from './containers/Course'
+import Course1 from './containers/Course1'
+import Course2 from './containers/Course2'
 import Sidebar from './components/Sidebar'
 import { getInfo } from './services/requests'
 
@@ -23,7 +24,8 @@ function App() {
           <Switch>
             <Route path='/' exact component={Dashboard} />
             <Route path='/cursos' exact component={Courses} />
-            <Route path='/cursos/curso/1' exact component={Course} />
+            <Route path='/cursos/curso/1' exact component={Course1} />
+            <Route path='/cursos/curso/2' exact component={Course2} />
           </Switch>
         </div>
       ) : (

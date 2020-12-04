@@ -1,88 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .Sidebar {
-    background: #fafafa;
-    display: flex;
-    width: 336px;
-    height: 100vh;
-    flex-direction: column;
+  background: #fafafa;
+  display: flex;
+  width: 336px;
+  height: 100vh;
+  flex-direction: column;
+  margin-left: -8px;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 
 /* Fausto Silva */
 
 .propsName {
-    color: #727272;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
+  color: #727272;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-
 .propsCourse {
-    color: #727272;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-size: 17px;
-    margin-top: -23px;
+  color: #727272;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  margin-top: -23px;
 }
 
 .avatar--fausto {
-    margin: 0 auto;
-    display: flex;
-    text-align: center;
-    margin-top: 85px;
-    margin-left: 115px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  margin-top: 85px;
+  margin-left: 115px;
 }
 
 .avatar--fausto img {
-    max-width: 90px;
-    border-radius: 50%;
-    align-items: center;
+  max-width: 90px;
+  border-radius: 50%;
+  align-items: center;
 }
 
 .infoStudent {
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 73px;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 73px;
 }
 
 /* Dashboard-button */
 
 .button-dashboard {
-    color: #6A6A6A;
-    display: flex;
-    font-family: 'Nunito', sans-serif;
-    margin-top: 150px;
-    margin-left: 45px;
-    font-size: 22px;
-    text-decoration: none;
-    cursor: pointer;
+  color: #6a6a6a;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 150px;
+  margin-left: 45px;
+  font-size: 22px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.button-dashboard.active{
-    color:#6A6A6A;
-    font-weight: bold;
-    text-decoration: none;
+.button-dashboard.active {
+  color: #6a6a6a;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* Dashboard-course */
 
 .button-courses {
-    color: #6A6A6A;
-    display: flex;
-    font-family: 'Nunito', sans-serif;
-    margin-top: 35px;
-    margin-left: 45px;
-    font-size: 22px;
-    text-decoration: none;
-    cursor: pointer;
+  color: #6a6a6a;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 35px;
+  margin-left: 45px;
+  font-size: 22px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.button-courses.active{
-    color:#6A6A6A;
-    font-weight: bold;
-    text-decoration: none;
+.button-courses.active {
+  color: #6a6a6a;
+  font-weight: bold;
+  text-decoration: none;
 }

@@ -19,7 +19,7 @@ function Index() {
         <>
           <div className='flex-box1'>
             <div className='courseInfo'>
-              <h1 className='tittleCourse'>Algoritmos e Programação</h1>
+              <h1 className='tittleCourse'>{course1Data[0].course}</h1>
               <h2 className='subtittleClass'>Turma M52</h2>
             </div>
             <div className='teacherInfo'>

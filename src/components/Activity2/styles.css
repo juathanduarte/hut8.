@@ -1,17 +1,23 @@
-.stylesBlock {
+.stylesBlock1 {
   display: flex;
+  margin-left: 115px;
 }
 
-.tittleActivity {
-  position: absolute;
+.tittleActivity1 {
   color: #555555;
   font-family: 'Nunito', sans-serif;
   font-size: 26px;
   margin-left: 115px;
-  margin-top: 90px;
+  margin-top: 125px;
 }
 
 .button-algoritmo {
   text-decoration: none;
   cursor: pointer;
+}
+
+.button-banco {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 34px;
 }

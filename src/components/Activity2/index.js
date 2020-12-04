@@ -15,8 +15,8 @@ function Index() {
 
   return (
     <div>
-      <h1 className='tittleActivity'>Meus cursos</h1>
-      <div className='stylesBlock'>
+      <h1 className='tittleActivity1'>Meus cursos</h1>
+      <div className='stylesBlock1'>
         {coursesData ? (
           <>
             <NavLink exact className='button-algoritmo' to='/cursos/curso/1'>
@@ -27,12 +27,14 @@ function Index() {
                 image={coursesData[0].image}
               />
             </NavLink>
-            <Block1
-              graduation={coursesData[1].type}
-              course1={coursesData[1].course}
-              class={coursesData[1].class}
-              image={coursesData[1].image}
-            />
+            <NavLink exact className='button-banco' to='/cursos/curso/2'>
+              <Block1
+                graduation={coursesData[1].type}
+                course1={coursesData[1].course}
+                class={coursesData[1].class}
+                image={coursesData[1].image}
+              />
+            </NavLink>
           </>
         ) : (
           <p>Carregando</p>

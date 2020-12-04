@@ -1,12 +1,21 @@
 .stylesBlock {
-    display: flex;
+  display: flex;
+  margin-top: -45px;
 }
 
 .tittleActivity {
-    position: absolute;
-    color: #555555;
-    font-family: 'Nunito', sans-serif;
-    font-size: 26px;
-    margin-left: 115px;
-    margin-top: 90px;
+  color: #555555;
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  margin-top: 130px;
+  height: 78px;
+  width: 235px;
+}
+
+.tittleAndCourse {
+  margin-left: 113px;
+}
+
+.blockbanco {
+  margin-left: 33px;
 }

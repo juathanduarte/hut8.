@@ -13,7 +13,7 @@ function Index() {
   }, [])
 
   return (
-    <div>
+    <div className='tittleAndCourse'>
       <h1 className='tittleActivity'>Próximas atividades</h1>
       <div className='stylesBlock'>
         {activitiesData ? (
@@ -24,12 +24,14 @@ function Index() {
               date={activitiesData[0].deadline}
               image={activitiesData[0].image}
             />
-            <Block
-              course={activitiesData[1].course}
-              upload={activitiesData[1].title}
-              date={activitiesData[1].deadline}
-              image={activitiesData[1].image}
-            />
+            <div className='blockbanco'>
+              <Block
+                course={activitiesData[1].course}
+                upload={activitiesData[1].title}
+                date={activitiesData[1].deadline}
+                image={activitiesData[1].image}
+              />
+            </div>
           </>
         ) : (
           <p>Carregando</p>
